@@ -5,10 +5,6 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 >Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
 ### Đánh giá chung
@@ -34,8 +30,16 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 ### Một số câu hỏi khác
 - Điều bạn **hài lòng nhất** trong thời gian thực tập?  
+
+  Điều em hài lòng nhất trong quá trình thực tập tại AWS là được tiếp cận và học hỏi thêm nhiều kiến thức mới về Cloud. Bên cạnh đó, em luôn nhận được sự hướng dẫn và hỗ trợ nhiệt tình từ các anh chị, giúp em hiểu rõ hơn về kiến thức chuyên môn cũng như tích lũy thêm nhiều kinh nghiệm thực tế.
+
 - Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
+
+  Theo em, công ty có thể cân nhắc tuyển số lượng thực tập sinh phù hợp hơn trong các đợt tiếp theo để mỗi bạn đều có cơ hội tham gia đủ 10 buổi theo chương trình. Trong đợt thực tập này, dù em đã đăng ký rất nhiều buổi nhưng chỉ được duyệt tham gia 6 buổi. Em hy vọng công ty có thể cải thiện việc phân bổ số lượng và cơ hội tham gia để các thực tập sinh khóa sau có được trải nghiệm đầy đủ hơn.
+
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+
+  Em sẽ khuyên bạn bè tham gia thực tập tại AWS nếu các bạn có định hướng phát triển trong lĩnh vực Cloud. Chương trình là cơ hội tốt để tìm hiểu kiến thức về điện toán đám mây, làm quen với các dịch vụ của AWS và tích lũy thêm những kinh nghiệm thực tế hữu ích cho công việc sau này.
 
 
 ### Đề xuất & mong muốn

@@ -6,17 +6,16 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+# Published Blog Posts
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+### [Blog 1 — Monitoring Amazon S3 security without building a pipeline](3.1-Blog1/)
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+This post explains how S3 Server Access Logs can be delivered to CloudWatch Logs through Vended Logs, transformed into JSON, and analyzed with Logs Insights, Metric Filters, Alarms, and Contributor Insights to build a security dashboard.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 2 — Amazon EC2 Auto Scaling Group](3.2-Blog2/)
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+What I learned about automatic scaling, self-healing, maintaining availability, and cost optimization with Amazon EC2 Auto Scaling Group.
+
+### [Blog 3 — Building an AWS File Upload Service with Presigned URLs](3.3-Blog3/)
+
+What I learned about using Presigned URLs with API Gateway, Lambda, Amazon S3, and an event-driven architecture to build a flexible, scalable, and cost-efficient Serverless file upload service.

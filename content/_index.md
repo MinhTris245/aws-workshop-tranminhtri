@@ -5,40 +5,40 @@ weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+## AWS Security Monitoring and Automated Incident Response System
 
-### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+### Student Information
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Full name:** Trần Minh Trí
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Student ID:** 2280603375
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Specialization:** Cybersecurity
 
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Class:** 22DTHE1
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship organization:** First Cloud AI Journey Bootcamp
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Company supervisor:** Nguyễn Gia Hưng — hunggia@amazon.com
 
-![Your profile picture](/images/avatar.png)
+&emsp; **University supervisor:** Văn Thiên Hoàng, MSc — vt.hoang@hutech.edu.vn
+
+&emsp; **Internship period:** 15 April to 12 July (12 weeks)
+
+<img src="/images/tran-minh-tri-avatar.png" alt="Profile picture of Trần Minh Trí" width="220">
 
 ### Report Content
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+1. [Worklog](1-Worklog/)
+2. [Project Proposal](2-Proposal/)
+3. [Blogs Posted](3-BlogsPosted/)
+4. [Events Participated](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Self-evaluation](6-Self-evaluation/)
+7. [Sharing and Feedback](7-Feedback/)

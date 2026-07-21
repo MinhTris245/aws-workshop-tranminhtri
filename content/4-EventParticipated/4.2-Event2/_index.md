@@ -6,121 +6,124 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Summary Report: “Career Orientation and AI Applications on AWS”
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+### Event Information
+
+- **Date:** May 23
+- **Role:** Attendee
+- **Main topics:** Career orientation, Prompt Engineering, Multi-Agent systems, Amazon CloudFront, and enterprise AI security
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Provide career direction and development strategies for IT engineers in the rapidly evolving AI landscape.
+- Share Prompt Engineering best practices and methods for supplying context to work effectively with AI.
+- Explain how to apply enterprise Multi-Agent architectures to complex problems while meeting security requirements.
+- Present Amazon CloudFront's new pricing model and advanced security capabilities.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Nguyen Gia Hung** — Solutions Architect, AWS Vietnam; founder of SC
+- **Tinh Truong** — Platform Engineer, Gotam X
+- **Hai Anh** — Pacific Vietnam
+- **Nguyen Tuan Thinh** — DevOps Engineer
+- **Uyen and Thao** — Hackathon team, UTM Morpo project
+- **Vy Lam** — Specialist in implementing AI systems for VBBank
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Career orientation in the AI era
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- The Jevons paradox suggests that when AI lowers the cost of creating software, demand for software may grow sharply and create more jobs.
+- Work such as fixing AI-generated defects, maintaining systems, AI DevOps, and Platform Engineering will become increasingly important.
+- To compete, engineers need academic foundations, strong technical knowledge, business understanding, and real products—not only demos.
 
-#### Transitioning to modern application architecture – Microservices
+#### Optimizing context for AI
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Avoid an “Internet Buller” mindset that overloads AI with too many unrelated plugins, rules, and data.
+- Constant context changes can distract the model and produce inaccurate answers.
+- Context should be narrow but deep, with a clearly defined **Goal, Role, and Format** based on the real business domain.
+- An AI mindset and the ability to apply AI appropriately are important labor-market skills.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Reducing LLM variability
 
-#### Domain-Driven Design (DDD)
+- An LLM is a **Probabilistic Engine**, so results can vary between runs even when `temperature = 0`.
+- Differences may arise from GPU floating-point calculations and provider inference-optimization techniques.
+- Mitigations include running the model multiple times to identify consensus, self-hosting the model, using JSON Mode, and testing continuously.
+- Downstream systems must detect and handle malformed or unstable AI output.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Optimizing cost and security with Amazon CloudFront
 
-#### Event-Driven Architecture
+- Flat Rate Pricing provides Free, Pro, Business, and Premium plans with AWS WAF integration to reduce the risk of bill spikes caused by DDoS attacks or abnormal traffic.
+- VPC Origin hides the origin server from the public internet and permits only internal CloudFront connections.
+- CloudFront also supports mTLS, geographic restrictions, and DDoS protection at the Edge.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### Lessons from a 36-hour Hackathon
 
-#### Compute Evolution
+- Morpo is an AI-assisted editor that creates HTML/CSS interfaces from screenshots or hand-drawn designs.
+- Users can edit the interface directly instead of asking AI to regenerate everything, thereby saving tokens.
+- Important lessons included focusing on one real problem, avoiding feature creep, dividing work clearly, and maintaining personal health during the competition.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### Building an Enterprise Multi-Agent System
 
-#### Amazon Q Developer
+- The case study focused on credit assessment for startups without collateral, relying mainly on intellectual property.
+- Multi-Agent systems are suitable when context is very large and the problem requires specialized roles such as finance, market research, and risk management.
+- Dividing responsibilities prevents the context window from growing excessively and reduces knowledge drift.
+- Enterprises need input/output guardrails, Prompt Injection defenses, Output Filtering, API-key rotation, and an Audit Trail.
+- Knowledge Transfer should select the information real experts use instead of feeding entire long documents to AI.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
+### What I Learned
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Business-first:** Start by asking who will use the system, what they will use, and why, following the Working Backwards method.
+- A system must not only function but also be secure, reliable, and supported by an Audit Trail that establishes accountability.
+- Every AI-adoption decision should connect to user needs and concrete business value.
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- I understood MCP attack vectors and the importance of isolating each Agent's access permissions.
+- I learned the Infrastructure as Code mindset and Terraform's role in infrastructure management and automation.
+- Multi-Agent orchestration should follow a divide-and-conquer approach in which every Agent has a clear Role and Goal.
+- Downstream systems must proactively validate and handle unstable LLM output.
 
-#### Modernization Strategy
+#### Development Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Engineers should not become so dependent on AI that they neglect core backend skills such as password hashing and JWT Authentication.
+- An enterprise AI Engineer must first be a Software Engineer capable of integrating AI securely.
+- Before implementation, a solution's ROI should be calculated with real data to persuade stakeholders.
 
-### Applying to Work
+### Applying It to My Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Improve LLM usage:** Standardize prompts, remove redundant rules, and provide relevant context for more stable output.
+- **Strengthen project security:** Use CloudFront to filter unwanted requests and VPC Origin to protect the origin server.
+- **Design Multi-Agent workflows:** Separate the process into research, review, and synthesis Agents instead of assigning every task to one chatbot.
+- **Practice Infrastructure as Code:** Learn Terraform to manage infrastructure instead of relying on manual AWS Console operations.
+- **Add testing:** Design downstream validation for JSON and other AI-generated output.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+The event provided valuable direction and gave me a more practical view of both the potential and limitations of AI in enterprise environments.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from experienced practitioners
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- The sessions covered topics ranging from IT career strategy to a bank's internal credit-assessment process.
+- They focused on how engineers can adapt, develop capabilities, and create real value in the AI era.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Lessons in security mindset
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- Warnings against copying ChatGPT-generated code directly into production showed that AI output must always be reviewed and tested.
+- Cases where applications were rejected for deployment because of data-leakage risks emphasized security's critical role in enterprises.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Lessons from the Hackathon
 
-#### Some event photos
-*Add your event photos here*  
+- The teams' time management and removal of superficial features to focus on the core experience provided useful lessons for personal projects.
+- A product that solves one real problem well is more valuable than one with too many unfinished features.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Lessons Learned
+
+- AI's growth does not eliminate the role of software engineers, but it requires stronger system-design, process-management, and business-domain capabilities.
+- Backend, Security, and Infrastructure as Code knowledge provide the foundation for secure GenAI deployment.
+- Enterprise systems must be secure, reliable, and aligned with user needs—not merely operational.
+
+> Overall, the event helped me develop a more practical perspective on careers, Prompt Engineering, Multi-Agent systems, Amazon CloudFront, security, and enterprise-scale AI deployment.

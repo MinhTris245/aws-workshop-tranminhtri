@@ -6,121 +6,115 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Summary Report: “FCAJ Community Day”
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+### Event Information
+
+- **Event name:** FCAJ Community Day
+- **Date:** June 27
+- **Role:** Attendee
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share practical cloud-computing experience and perspectives from enterprise environments.
+- Introduce AI Agent solutions for cloud operations, Vietnamese voice processing, and human-resources workflows.
+- Present standard security-architecture methods for integrating AI into internal enterprise systems.
+- Create opportunities for the community, students, and Cloud and AI professionals to connect and exchange ideas.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Steve Tran** — Founder, Cloud Thinker
+- **Hieu Nghi** — Renova Cloud
+- **Kiet** — Student Builder Group
+- **Trung** — CEO, Re AI
+- **Bao and Nguyen** — Cloud Engineers, Cloud Kinetics
+- **Truong** — AI Solution, Noventiq
+- **Minh Anh** — Solution Sales, Noventiq
+- **Toan Nguyen** — AWS Security Builder
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Applying AI Agents to Cloud Operations
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Increasingly complex microservice systems make manual operations time-consuming, expensive, and difficult to scale.
+- AI Agents can help DevOps engineers investigate incidents, inspect source code, optimize FinOps costs, and automate security assessments and penetration testing.
+- AI acts as an analytical and recommendation assistant, helping technical teams work faster and more systematically.
 
-#### Transitioning to modern application architecture – Microservices
+#### Building Voice AI specialized for Vietnamese
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Traditional Speech-to-Speech models remain limited for low-resource languages such as Vietnamese.
+- The architecture is divided into three stages: **STT (Speech-to-Text) → LLM (Large Language Model) → TTS (Text-to-Speech)**, enabling better content control and reducing hallucinations.
+- Tool Calling, context and gender recognition, and interruption detection help the system produce more natural responses.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Optimizing incident response with AWS DevOps Agent
 
-#### Domain-Driven Design (DDD)
+- AWS DevOps Agent helps address **Fragmented Telemetry**, where logs and traces are scattered across multiple sources.
+- Its automated workflow has four stages: **Classify information → Investigate the root cause → Recommend remediation → Improve the system**.
+- The **human-in-the-loop** model remains essential: AI makes recommendations, while people review and decide whether to act.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Digitizing human-resources workflows with Amazon Q
 
-#### Event-Driven Architecture
+- Manual CV screening is susceptible to subjective judgment and may overlook suitable candidates.
+- Amazon Q can understand job descriptions, extract information from CVs—including PDFs and scanned images—and then compare and score candidates more objectively.
+- The solution reduces repetitive work for HR teams and gives them more time for in-depth evaluation.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### Establishing a secure architecture for Amazon Q
 
-#### Compute Evolution
+- Public endpoints can increase the risk of DDoS attacks, eavesdropping, or data leakage in transit.
+- A secure connection flow uses a **VPC Connection, Private Subnet, and Application Load Balancer (ALB)** to protect internal data.
+- Access permissions and private connectivity must be designed from the beginning when enterprises integrate AI into production environments.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
+### What I Learned
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Human-in-the-loop:** AI supports and amplifies human capability rather than fully replacing skilled engineers.
+- **Business-first approach:** AI tools and technology workflows must begin with real business problems and needs.
+- AI adoption requires clear review mechanisms, authorization, and decision-making responsibility.
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- I learned how to separate STT, LLM, and TTS modules to recognize and respond to Vietnamese speech.
+- I understood how VPCs, Private Subnets, and ALBs can create a closed network environment for AI systems and MCP servers.
+- I gained a clearer understanding of the role of logs, metrics, traces, and observability in AI-assisted incident investigation.
 
-#### Modernization Strategy
+#### AI Adoption Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- AI is well suited to repetitive tasks such as reading CVs, summarizing error logs, and assisting with root-cause analysis.
+- Automation gives employees more time for strategic work and decision-making.
+- Effective AI adoption requires sufficiently mature infrastructure, especially in observability and operational data.
 
-### Applying to Work
+### Applying It to My Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Experiment with AWS DevOps Agent:** Integrate it into the project to help reduce MTTR (Mean Time To Recovery) during incidents.
+- **Integrate GenAI into business workflows:** Use Amazon Q Developer or AI Agents to help non-technical departments such as HR and Administration analyze data.
+- **Improve security:** Review API connections to third-party AI services and prioritize private connections to strengthen information security.
+- **Maintain human-in-the-loop controls:** Require human review before actions that affect the production environment.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending **FCAJ Community Day** was a practical and in-depth experience. It helped me stay current with AI Agent trends on AWS and better understand how enterprises apply these technologies.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from experienced practitioners
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Talks by founders, CEOs, cloud engineers, and security builders provided diverse perspectives ranging from startups to large enterprises.
+- The sessions did more than introduce technology; they analyzed real operational, human-resources, and security challenges.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Visual technical experience
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- Live demonstrations—including a responsive Voice Bot, AI-assisted system troubleshooting, and AI-based CV analysis—made the workflows easy to understand.
+- Practical examples showed how AI Agents can combine analytical capabilities with Tool Calling to support real tasks.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Networking and Q&A
 
-#### Some event photos
-*Add your event photos here*  
+- The event offered direct discussions with speakers about regional accents, Data Transfer costs, and practical deployment challenges.
+- Questions and feedback helped clarify the gap between a technical demo and a production system.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Lessons Learned
+
+- AI is evolving from standalone chatbots into Agent ecosystems that can analyze information and invoke tools to perform tasks.
+- Data Security and Observability are two essential foundations for integrating AI into enterprise operations.
+- New technology must include Role-Based Access Control, review mechanisms, and clearly defined action limits.
+- AI delivers the greatest value when it helps people make faster, more accurate, data-informed decisions.
+
+> Overall, FCAJ Community Day expanded my knowledge of Cloud, AI Agents, Voice AI, DevOps automation, and security architecture on AWS while giving me clearer direction for applying these technologies to real projects.

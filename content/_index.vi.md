@@ -6,35 +6,39 @@ chapter: false
 ---
 
 # Báo cáo thực tập
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
 
-&emsp; **Số điện thoại:** 0989888999
+## Hệ thống giám sát và phản ứng sự cố bảo mật trên AWS
 
-&emsp; **Email:** Anguyenvan@gmail.com
+### Thông tin sinh viên
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Họ và tên:** Trần Minh Trí
+
+&emsp; **MSSV:** 2280603375
+
+&emsp; **Trường:** Trường Đại học Công nghệ TP.HCM (HUTECH)
 
 &emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Chuyên ngành:** An ninh mạng
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
+&emsp; **Lớp:** 22DTHE1
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Đơn vị thực tập:** Bootcamp First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Cán bộ hướng dẫn tại đơn vị:** Nguyễn Gia Hưng — hunggia@amazon.com
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+&emsp; **Giảng viên hướng dẫn:** ThS. Văn Thiên Hoàng — vt.hoang@hutech.edu.vn
 
+&emsp; **Thời gian thực tập:** Từ ngày 15/04 đến ngày 12/07 (12 tuần)
 
+<img src="/images/tran-minh-tri-avatar.png" alt="Ảnh đại diện của Trần Minh Trí" width="220">
 
 ### Nội dung báo cáo
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Các bài blogs đã đăng](3-BlogsPosted/)
-4.  [Các events đã tham gia](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Tự đánh giá](6-Self-evaluation/)
-7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+1. [Nhật ký công việc](1-Worklog/)
+2. [Đề xuất dự án](2-Proposal/)
+3. [Các bài blog đã đăng](3-BlogsPosted/)
+4. [Các sự kiện đã tham gia](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Tự đánh giá](6-Self-evaluation/)
+7. [Chia sẻ và đóng góp ý kiến](7-Feedback/)

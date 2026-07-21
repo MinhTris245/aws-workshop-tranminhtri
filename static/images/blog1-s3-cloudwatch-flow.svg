@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="500" viewBox="0 0 850 500" role="img" aria-labelledby="title desc">
+  <title id="title">Luồng giám sát bảo mật S3 với CloudWatch</title>
+  <desc id="desc">S3 access logs được đưa vào CloudWatch Logs rồi phân tích để tạo dashboard bảo mật.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#777"/></marker>
+    <style>.box{stroke-width:1.2}.line{stroke:#777;stroke-width:1.7;fill:none;marker-end:url(#arrow)}.title{font:600 19px Arial,sans-serif;fill:#222;text-anchor:middle}.sub{font:16px Arial,sans-serif;fill:#5a5178;text-anchor:middle}</style>
+  </defs>
+  <rect width="850" height="500" fill="#fff"/>
+  <rect class="box" x="260" y="38" width="330" height="58" rx="12" fill="#f4f0eb" stroke="#9b948b"/><text class="title" x="425" y="74">S3 access logs</text>
+  <path class="line" d="M425 97 L425 132"/>
+  <rect class="box" x="235" y="135" width="380" height="73" rx="12" fill="#e4f5f0" stroke="#599c8d"/><text class="title" x="425" y="169">CloudWatch Logs</text><text class="sub" x="425" y="194">Vended Logs, tự động chuyển JSON</text>
+  <path class="line" d="M385 209 L165 252"/><path class="line" d="M425 209 L425 252"/><path class="line" d="M465 209 L685 252"/>
+  <rect class="box" x="48" y="255" width="230" height="73" rx="12" fill="#efedff" stroke="#7b73ac"/><text class="title" x="163" y="286">Logs Insights</text><text class="sub" x="163" y="311">Truy vấn SQL-like</text>
+  <rect class="box" x="305" y="255" width="240" height="73" rx="12" fill="#efedff" stroke="#7b73ac"/><text class="title" x="425" y="286">Metric filters &amp; alarms</text><text class="sub" x="425" y="311">Cảnh báo tự động</text>
+  <rect class="box" x="572" y="255" width="230" height="73" rx="12" fill="#efedff" stroke="#7b73ac"/><text class="title" x="687" y="286">Contributor Insights</text><text class="sub" x="687" y="311">Xếp hạng IP, requester</text>
+  <path class="line" d="M163 329 L360 378"/><path class="line" d="M425 329 L425 378"/><path class="line" d="M687 329 L490 378"/>
+  <rect class="box" x="220" y="382" width="410" height="75" rx="12" fill="#fff0e9" stroke="#b77e66"/><text class="title" x="425" y="416">Dashboard bảo mật</text><text class="sub" x="425" y="442">Giám sát, cảnh báo &amp; tuân thủ tổng hợp</text>
+</svg>
+

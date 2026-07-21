@@ -6,17 +6,16 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Các bài blog đã đăng
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+### [Blog 1 — Giám sát bảo mật Amazon S3 không cần xây pipeline](3.1-Blog1/)
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Bài viết trình bày cách đưa Amazon S3 Server Access Logs vào CloudWatch Logs bằng Vended Logs, tự động chuyển thành JSON và sử dụng Logs Insights, Metric Filters, Alarms cùng Contributor Insights để xây dựng dashboard bảo mật.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 — Amazon EC2 Auto Scaling Group](3.2-Blog2/)
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Những điều mình học được về khả năng tự động mở rộng, tự phục hồi, duy trì tính sẵn sàng và tối ưu chi phí với Amazon EC2 Auto Scaling Group.
+
+### [Blog 3 — Xây dựng Upload File Service trên AWS với Presigned URL](3.3-Blog3/)
+
+Những điều mình học được về cách sử dụng Presigned URL cùng API Gateway, Lambda, Amazon S3 và kiến trúc hướng sự kiện để xây dựng dịch vụ upload file Serverless linh hoạt, dễ mở rộng và tối ưu chi phí.
