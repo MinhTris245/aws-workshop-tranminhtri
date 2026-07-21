@@ -29,9 +29,9 @@ chapter: false
 
 &emsp; **Giảng viên hướng dẫn:** ThS. Văn Thiên Hoàng — vt.hoang@hutech.edu.vn
 
-&emsp; **Thời gian thực tập:** Từ ngày 15/04 đến ngày 12/07 (12 tuần)
+&emsp; **Thời gian thực tập:** Từ ngày 20/04 đến ngày 12/07 (12 tuần)
 
-<img src="/aws-workshop-tranminhtri/images/tran-minh-tri-avatar.png?v=20260721-2" alt="Ảnh đại diện của Trần Minh Trí" width="220">
+<img src="/aws-workshop-tranminhtri/images/tran-minh-tri-avatar.png?v=20260721-2" alt="Ảnh đại diện của Trần Minh Trí" width="140" style="width: 140px; max-width: 140px; height: auto;">
 
 ### Nội dung báo cáo
 

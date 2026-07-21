@@ -29,9 +29,9 @@ chapter: false
 
 &emsp; **University supervisor:** Văn Thiên Hoàng, MSc — vt.hoang@hutech.edu.vn
 
-&emsp; **Internship period:** 15 April to 12 July (12 weeks)
+&emsp; **Internship period:** 20 April to 12 July (12 weeks)
 
-<img src="/aws-workshop-tranminhtri/images/tran-minh-tri-avatar.png?v=20260721-2" alt="Profile picture of Trần Minh Trí" width="220">
+<img src="/aws-workshop-tranminhtri/images/tran-minh-tri-avatar.png?v=20260721-2" alt="Profile picture of Trần Minh Trí" width="140" style="width: 140px; max-width: 140px; height: auto;">
 
 ### Report Content
 
