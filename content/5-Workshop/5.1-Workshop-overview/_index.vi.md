@@ -36,7 +36,7 @@ Bạn sẽ có thể:
 
 ## Kiến trúc tổng thể
 
-![Sơ đồ kiến trúc tổng thể của hệ thống Document Security trên AWS](/5-workshop/document-security/img-01-architecture.png)
+![Sơ đồ kiến trúc tổng thể của hệ thống Document Security trên AWS](/images/5-Workshop/document-security/img-01-architecture.png)
 
 Người dùng truy cập ứng dụng qua AWS WAF và Amazon CloudFront. Frontend được phân phối từ Amazon S3, Amazon Cognito đảm nhiệm xác thực và backend chạy trên Amazon EC2. Tài liệu được lưu trên Amazon S3, còn metadata và incident được lưu trong Amazon DynamoDB.
 

@@ -28,7 +28,7 @@ You will learn to distribute a private SPA through CloudFront OAC; authenticate 
 
 ## Overall architecture
 
-![Overall architecture of the Document Security system on AWS](/5-workshop/document-security/img-01-architecture.png)
+![Overall architecture of the Document Security system on AWS](/images/5-Workshop/document-security/img-01-architecture.png)
 
 Users access the application through AWS WAF and Amazon CloudFront. Amazon S3 serves the frontend, Amazon Cognito provides authentication, and Amazon EC2 runs the backend. Documents are stored in Amazon S3, while metadata and incidents are stored in Amazon DynamoDB.
 
