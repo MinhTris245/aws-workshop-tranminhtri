@@ -31,7 +31,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 15/04 đến ngày 12/07 (12 tuần)
 
-<img src="/images/tran-minh-tri-avatar.png" alt="Ảnh đại diện của Trần Minh Trí" width="220">
+<img src="/aws-workshop-tranminhtri/images/tran-minh-tri-avatar.png?v=20260721-2" alt="Ảnh đại diện của Trần Minh Trí" width="220">
 
 ### Nội dung báo cáo
 

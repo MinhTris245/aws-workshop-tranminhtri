@@ -31,7 +31,7 @@ chapter: false
 
 &emsp; **Internship period:** 15 April to 12 July (12 weeks)
 
-<img src="/images/tran-minh-tri-avatar.png" alt="Profile picture of Trần Minh Trí" width="220">
+<img src="/aws-workshop-tranminhtri/images/tran-minh-tri-avatar.png?v=20260721-2" alt="Profile picture of Trần Minh Trí" width="220">
 
 ### Report Content
 
