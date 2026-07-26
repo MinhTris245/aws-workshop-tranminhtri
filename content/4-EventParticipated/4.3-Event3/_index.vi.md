@@ -6,16 +6,22 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Báo Cáo Sự Kiện: Agentic AI Buildweek 2026
+# Bài Thu Hoạch “Agentic AI Buildweek 2026”
 
 ### Thông Tin Sự Kiện
 
 - **Thời gian:** Thứ Bảy, ngày 25 tháng 7 năm 2026 (diễn ra tiếp nối sau 24 giờ thi Hackathon liên tục)
 - **Địa điểm:** Thành phố Hồ Chí Minh
 - **Đơn vị tổ chức:** AWS, Quỹ đầu tư JI và Cộng đồng FCAJ (AWS Study Group)
-- **Vai trò:** Khách tham dự
+- **Vai trò:** Người tham dự
 
-### Các Khách Mời Đặc Biệt Và Nội Dung Chia Sẻ
+### Mục Đích Của Sự Kiện
+
+- Tạo môi trường Hackathon thực chiến để các thí sinh xây dựng và trình bày sản phẩm Agentic AI trên hạ tầng AWS.
+- Kết nối sinh viên, kỹ sư và cộng đồng công nghệ thông qua các buổi demo, góp ý chuyên môn và chia sẻ kiến thức thực tế.
+- Khuyến khích tư duy phát triển sản phẩm dựa trên bài toán thực tế, giá trị mang lại cho người dùng và tính khả thi khi triển khai.
+
+### Danh Sách Diễn Giả
 
 Sự kiện vinh dự có sự góp mặt và đồng hành của các chuyên gia hàng đầu từ AWS:
 
@@ -31,13 +37,7 @@ Sự kiện vinh dự có sự góp mặt và đồng hành của các chuyên g
 - **Thực tế công nghệ tại Amazon:** Chia sẻ ví dụ Amazon vận hành hơn một triệu robot tại các trung tâm xử lý. Robot hay phần mềm chỉ là phần cứng thô; dữ liệu, các Agent và con người trong cơ chế Human-in-the-loop mới tạo nên giá trị và sự cải tiến liên tục.
 - **Thông điệp:** Động viên thế hệ trẻ tại Việt Nam trở thành những người học tập suốt đời (lifelong learners) để làm chủ công nghệ, tiên phong xây dựng tương lai công nghệ cho Việt Nam và khu vực.
 
-### Mục Tiêu Sự Kiện
-
-- Tạo môi trường Hackathon thực chiến để các thí sinh xây dựng và trình bày sản phẩm Agentic AI trên hạ tầng AWS.
-- Kết nối sinh viên, kỹ sư và cộng đồng công nghệ thông qua các buổi demo, góp ý chuyên môn và chia sẻ kiến thức thực tế.
-- Khuyến khích tư duy phát triển sản phẩm dựa trên bài toán thực tế, giá trị mang lại cho người dùng và tính khả thi khi triển khai.
-
-### Trình Bày Sản Phẩm Và Demo (Pitching & Demos)
+### Nội Dung Nổi Bật
 
 Hoạt động chính của chương trình là phần trình bày sản phẩm, demo trực tiếp và trả lời câu hỏi phản biện từ Ban giám khảo của năm đội thi:
 
@@ -66,25 +66,35 @@ Hoạt động chính của chương trình là phần trình bày sản phẩm,
 - **Sản phẩm:** Hệ thống phòng chống rửa tiền (AML) cho ngân hàng và sàn giao dịch, giúp giảm tỷ lệ cảnh báo sai (False Positive).
 - **Giải pháp:** Kiến trúc ba tầng gồm: tầng 1 lọc nhanh bằng Kinesis và XGBoost; tầng 2 điều phối hệ thống Multi-Agent (KYC, Money Flow, Sanction) kết hợp OpenSearch RAG và Guardrails; tầng 3 là giao diện Case Management để chuyên viên rà soát các trường hợp nghi vấn theo mô hình Human-in-the-loop. Hệ thống tăng cường bảo mật bằng KMS, IAM, Security Hub và AWS X-Ray.
 
-### Các Bài Học Quan Trọng Rút Ra (Key Takeaways)
+### Những Gì Học Được
 
-#### 1. Tư Duy Xây Dựng Sản Phẩm AI
+#### Tư Duy Thiết Kế Và Xây Dựng Sản Phẩm AI
 
 - **Giải quyết đúng Pain Point:** Sản phẩm phải xuất phát từ vấn đề thực tế của người dùng, chẳng hạn việc mất ba giờ để xử lý một trường hợp nghi vấn rửa tiền hoặc rào cản phải tải ứng dụng khi đặt đồ ăn, thay vì chỉ tập trung phô diễn kỹ thuật phức tạp.
 - **Kiểm soát phạm vi trong 24 giờ:** Ưu tiên xây dựng một MVP hoạt động được, tránh mở rộng phạm vi quá lớn khiến phần demo không thể hoàn thiện.
 - **Độ tin cậy và con người:** AI phải có cơ chế kiểm duyệt đầu ra và xác nhận; con người luôn cần tham gia quyết định trong các quy trình quan trọng.
 
-#### 2. Kỹ Năng Kỹ Thuật Và Hạ Tầng Cloud
+#### Kiến Trúc Kỹ Thuật Và Hạ Tầng Cloud
 
 - Nắm vững cách thiết kế kiến trúc Multi-Agent theo mô hình Supervisor–Sub-Agents và giao tiếp Agent-to-Agent (A2A).
 - Biết kết hợp AI với code thuần để kiểm tra dữ liệu, giảm ảo giác và ngăn Prompt Injection.
 - Hiểu cách tính toán và tối ưu chi phí sử dụng LLM và Amazon Bedrock trong môi trường thực tế.
 
-#### 3. Kỹ Năng Mềm Và Làm Việc Nhóm
+#### Kỹ Năng Mềm Và Làm Việc Nhóm
 
 - Nâng cao khả năng giao tiếp, hạ cái tôi cá nhân để lắng nghe đồng đội và giải quyết xung đột dưới áp lực của đợt sprint 24 giờ.
 - Luyện tập kỹ năng thuyết trình, demo sản phẩm thực tế và bảo vệ kiến trúc hệ thống trước chuyên gia, giám khảo từ AWS.
 
-### Kết Luận Và Đánh Giá Chung
+### Ứng Dụng Vào Công Việc
+
+- Áp dụng mô hình Supervisor–Sub-Agents và giao tiếp Agent-to-Agent khi thiết kế các quy trình AI có nhiều nhiệm vụ chuyên biệt.
+- Kết hợp AI với code thuần, bước xác nhận và cơ chế Human-in-the-loop để kiểm tra dữ liệu, giảm ảo giác và bảo vệ các quyết định quan trọng.
+- Ưu tiên giải quyết đúng pain point, kiểm soát phạm vi MVP và tính toán chi phí Amazon Bedrock ngay từ giai đoạn thiết kế.
+
+### Trải Nghiệm Trong Sự Kiện
+
+Việc theo dõi năm phần pitching và demo trực tiếp giúp tôi hiểu rõ hơn cách một ý tưởng Agentic AI được chuyển thành sản phẩm có kiến trúc, chi phí và giá trị thực tế. Phần phản biện từ các chuyên gia AWS cũng cho tôi thêm kinh nghiệm đánh giá tính khả thi, độ tin cậy và khả năng bảo mật của một giải pháp.
+
+#### Bài Học Rút Ra
 
 Agentic AI Buildweek 2026 không chỉ đem lại cái nhìn toàn cảnh về xu hướng phát triển AI Agent hiện nay mà còn truyền cảm hứng mạnh mẽ thông qua những chia sẻ thực tế từ đại diện lãnh đạo AWS ASEAN, Mr. Joseph Marazota và Mr. Nguyễn Gia Hưng. Sự kiện giúp củng cố tư duy phát triển sản phẩm lấy người dùng làm trung tâm, tầm quan trọng của việc kiểm soát phạm vi công việc và giá trị cốt lõi của tinh thần làm việc nhóm.

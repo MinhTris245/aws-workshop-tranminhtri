@@ -49,5 +49,5 @@ Trong quá trình thực tập, em đã tham gia 3 sự kiện. Mỗi sự kiệ
 
 &emsp;**Nội dung chính:** Agentic AI, kiến trúc Multi-Agent, phát triển sản phẩm trên AWS, pitching và demo trực tiếp
 
-&emsp;**Vai trò trong sự kiện:** Khách tham dự
+&emsp;**Vai trò trong sự kiện:** Người tham dự
 

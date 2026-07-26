@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Event Report: Agentic AI Buildweek 2026
+# Summary Report: “Agentic AI Buildweek 2026”
 
 ### Event Information
 
@@ -15,7 +15,13 @@ pre: " <b> 4.3. </b> "
 - **Organizers:** AWS, JI Investment Fund, and the FCAJ Community (AWS Study Group)
 - **Role:** Attendee
 
-### Special Guests And Sharing Sessions
+### Event Objectives
+
+- Provide a hands-on Hackathon environment where participants build and present Agentic AI products on AWS.
+- Connect students, engineers, and the technology community through demos, expert feedback, and practical knowledge sharing.
+- Promote product development based on real problems, user value, and deployment feasibility.
+
+### Speakers
 
 #### Mr. Nguyễn Gia Hưng – Head of Solution Architect, AWS Vietnam
 
@@ -29,13 +35,7 @@ pre: " <b> 4.3. </b> "
 - **Technology at Amazon:** Shared that Amazon operates more than one million robots in its fulfillment centers. Robots and software are only raw machinery; data, Agents, and people acting as Human-in-the-loop create value and continuous improvement.
 - **Message:** Encouraged Vietnam's younger generation to become lifelong learners, master technology, and help build the technological future of Vietnam and the region.
 
-### Event Objectives
-
-- Provide a hands-on Hackathon environment where participants build and present Agentic AI products on AWS.
-- Connect students, engineers, and the technology community through demos, expert feedback, and practical knowledge sharing.
-- Promote product development based on real problems, user value, and deployment feasibility.
-
-### Product Presentations And Demos
+### Key Highlights
 
 The program centered on product pitches, live demonstrations, and questions from the judging panel for five teams:
 
@@ -64,25 +64,35 @@ The program centered on product pitches, live demonstrations, and questions from
 - **Product:** An Anti-Money Laundering system for banks and exchanges that reduces false positives.
 - **Solution:** A three-tier architecture uses Kinesis and XGBoost for fast filtering; KYC, Money Flow, and Sanction Agents with OpenSearch RAG and Guardrails for analysis; and a Human-in-the-loop Case Management interface. KMS, IAM, Security Hub, and AWS X-Ray strengthen security and observability.
 
-### Key Takeaways
+### What I Learned
 
-#### 1. AI Product Thinking
+#### Design And AI Product Mindset
 
 - **Solve the real pain point:** Products should address actual user problems instead of merely showcasing technical complexity.
 - **Control the 24-hour scope:** Prioritize a working MVP and avoid expanding the scope beyond what can be demonstrated.
 - **Reliability and Human-in-the-loop:** AI requires output review and confirmation, with people retaining decision-making responsibility in critical workflows.
 
-#### 2. Technical And Cloud Infrastructure Skills
+#### Technical And Cloud Architecture
 
 - Understand Supervisor–Sub-Agent Multi-Agent architectures and Agent-to-Agent communication.
 - Combine AI with deterministic scripts to validate data, reduce hallucinations, and prevent Prompt Injection.
 - Estimate and optimize LLM and Amazon Bedrock costs for real-world environments.
 
-#### 3. Soft Skills And Teamwork
+#### Soft Skills And Teamwork
 
 - Improve communication, listen to teammates, and resolve conflict under the pressure of a 24-hour sprint.
 - Practice pitching, live demonstrations, and defending system architectures before AWS experts and judges.
 
-### Conclusion And Overall Assessment
+### Applying It to My Work
+
+- Apply Supervisor–Sub-Agent patterns and Agent-to-Agent communication when designing AI workflows with specialized responsibilities.
+- Combine AI with deterministic code, verification steps, and Human-in-the-loop controls to validate data, reduce hallucinations, and protect critical decisions.
+- Focus on real pain points, control MVP scope, and estimate Amazon Bedrock costs from the design stage.
+
+### Event Experience
+
+Following five live pitches and demonstrations helped me understand how an Agentic AI idea becomes a product with a practical architecture, cost model, and user value. The AWS experts' questions also provided useful experience in evaluating feasibility, reliability, and security.
+
+#### Lessons Learned
 
 Agentic AI Buildweek 2026 provided a broad view of current AI Agent development trends and strong inspiration through practical insights from AWS ASEAN leaders Mr. Joseph Marazota and Mr. Nguyễn Gia Hưng. It reinforced user-centered product thinking, the importance of scope control, and teamwork as a core value.
