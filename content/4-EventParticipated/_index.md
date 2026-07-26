@@ -17,22 +17,31 @@ pre: " <b> 4. </b> "
 > * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
 > * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+During my internship, I participated in three events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
 
-### [Event 1](4.1-Event1/)
+### [Event 1](4.2-Event2/)
+&emsp;**Event Name:** Career Orientation and AI Applications on AWS
+
+&emsp;**Date:** May 23, 2026
+
+&emsp;**Main topics:** Prompt Engineering, Multi-Agent systems, Amazon CloudFront, and enterprise AI security
+
+&emsp;**Role:** Attendee
+
+### [Event 2](4.1-Event1/)
 &emsp;**Event Name:** FCAJ Community Day
 
-&emsp;**Date:** June 27
+&emsp;**Date:** June 27, 2026
 
 &emsp;**Main topics:** Cloud, AI Agents, Voice AI, DevOps automation, and security on AWS
 
 &emsp;**Role:** Attendee
 
-### [Event 2](4.2-Event2/)
-&emsp;**Event Name:** Career Orientation and AI Applications on AWS
+### [Event 3](4.3-Event3/)
+&emsp;**Event Name:** Agentic AI Buildweek 2026
 
-&emsp;**Date:** May 23
+&emsp;**Date:** July 25, 2026
 
-&emsp;**Main topics:** Prompt Engineering, Multi-Agent systems, Amazon CloudFront, and enterprise AI security
+&emsp;**Main topics:** Agentic AI, Multi-Agent architectures, AWS product development, pitching, and live demos
 
 &emsp;**Role:** Attendee

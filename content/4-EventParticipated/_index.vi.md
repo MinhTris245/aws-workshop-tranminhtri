@@ -18,25 +18,36 @@ pre: " <b> 4. </b> "
 > * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
 
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+Trong quá trình thực tập, em đã tham gia 3 sự kiện. Mỗi sự kiện là một trải nghiệm đáng nhớ với những kiến thức mới, bổ ích cùng nhiều khoảnh khắc tuyệt vời.
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** FCAJ Community Day
-
-&emsp;**Thời gian:** Ngày 27/06
-
-&emsp;**Nội dung chính:** Cloud, AI Agent, Voice AI, tự động hóa DevOps và bảo mật trên AWS
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-
-
-### [Event 2](4.2-Event2/)
+### [Event 1](4.2-Event2/)
 &emsp;**Tên sự kiện:** Định hướng nghề nghiệp và ứng dụng AI trên AWS
 
-&emsp;**Thời gian:** Ngày 23/05
+&emsp;**Thời gian:** Ngày 23/05/2026
 
 &emsp;**Nội dung chính:** Prompt Engineering, Multi-Agent, Amazon CloudFront và bảo mật AI trong doanh nghiệp
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+&emsp;**Vai trò trong sự kiện:** Người tham dự
+
+
+
+### [Event 2](4.1-Event1/)
+&emsp;**Tên sự kiện:** FCAJ Community Day
+
+&emsp;**Thời gian:** Ngày 27/06/2026
+
+&emsp;**Nội dung chính:** Cloud, AI Agent, Voice AI, tự động hóa DevOps và bảo mật trên AWS
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự
+
+
+
+### [Event 3](4.3-Event3/)
+&emsp;**Tên sự kiện:** Agentic AI Buildweek 2026
+
+&emsp;**Thời gian:** Ngày 25/07/2026
+
+&emsp;**Nội dung chính:** Agentic AI, kiến trúc Multi-Agent, phát triển sản phẩm trên AWS, pitching và demo trực tiếp
+
+&emsp;**Vai trò trong sự kiện:** Khách tham dự
 

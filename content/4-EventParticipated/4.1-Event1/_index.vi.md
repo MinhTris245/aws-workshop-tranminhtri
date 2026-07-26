@@ -1,9 +1,9 @@
 ---
-title: "Event 1"
+title: "Event 2"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.2. </b> "
 ---
 
 # Bài thu hoạch “FCAJ Community Day”
@@ -11,7 +11,7 @@ pre: " <b> 4.1. </b> "
 ### Thông Tin Sự Kiện
 
 - **Tên sự kiện:** FCAJ Community Day
-- **Thời gian:** Ngày 27/06
+- **Thời gian:** Ngày 27/06/2026
 - **Vai trò:** Người tham dự
 
 ### Mục Đích Của Sự Kiện

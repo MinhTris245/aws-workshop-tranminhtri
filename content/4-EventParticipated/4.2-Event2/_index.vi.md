@@ -1,16 +1,16 @@
 ---
-title: "Event 2"
+title: "Event 1"
 date: 2024-01-01
 weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
 # Bài thu hoạch “Định hướng nghề nghiệp và ứng dụng AI trên AWS”
 
 ### Thông Tin Sự Kiện
 
-- **Thời gian:** Ngày 23/05
+- **Thời gian:** Ngày 23/05/2026
 - **Vai trò:** Người tham dự
 - **Chủ đề chính:** Định hướng nghề nghiệp, Prompt Engineering, Multi-Agent, Amazon CloudFront và bảo mật AI trong doanh nghiệp
 

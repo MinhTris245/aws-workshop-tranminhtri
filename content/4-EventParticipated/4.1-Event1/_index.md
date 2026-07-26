@@ -1,9 +1,9 @@
 ---
-title: "Event 1"
+title: "Event 2"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.2. </b> "
 ---
 
 # Summary Report: “FCAJ Community Day”
@@ -11,7 +11,7 @@ pre: " <b> 4.1. </b> "
 ### Event Information
 
 - **Event name:** FCAJ Community Day
-- **Date:** June 27
+- **Date:** June 27, 2026
 - **Role:** Attendee
 
 ### Event Objectives

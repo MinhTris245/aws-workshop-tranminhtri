@@ -1,16 +1,16 @@
 ---
-title: "Event 2"
+title: "Event 1"
 date: 2024-01-01
 weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
 # Summary Report: “Career Orientation and AI Applications on AWS”
 
 ### Event Information
 
-- **Date:** May 23
+- **Date:** May 23, 2026
 - **Role:** Attendee
 - **Main topics:** Career orientation, Prompt Engineering, Multi-Agent systems, Amazon CloudFront, and enterprise AI security
 
