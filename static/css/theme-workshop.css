@@ -148,6 +148,15 @@ a:hover {
   border-color: var(--MENU-SECTION-HR-color);
 }
 
+#sidebar #select-language {
+  color: var(--MENU-SECTIONS-LINK-color);
+}
+
+#sidebar #select-language option {
+  color: #202124;
+  background-color: #fff;
+}
+
 #navigation a.nav-prev,
 #navigation a.nav-next {
   color: #f19e39 !important;
